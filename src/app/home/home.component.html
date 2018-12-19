@@ -1,0 +1,20 @@
+<div class=listbox >
+    <div class=headline>
+      <div class="headitem_name">Name</div>
+      <div class="headitem_desc">Description</div>
+    </div>
+</div>
+
+<div class=listbox >
+  <div class=listline *ngFor="let rec of records">
+    <div class="listitem_name">{{rec.name | strcut:30}}</div>
+    <div class="listitem_desc">{{rec.description | strcut:100}}</div>
+  </div>
+</div>
+
+
+<button class = "bttn" (click)="onAddPerson()" style="float: left">
+  Add new person
+</button>
+
+

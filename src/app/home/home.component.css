@@ -1,0 +1,65 @@
+.headline {
+    width: 100%;
+    padding: 7px 0px;
+    float: left;
+    background-color:darkblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.headitem_name {
+    width: 38%;
+    padding: 4px 4px;
+    float: left;
+    margin: 1px;
+}
+.headitem_desc {
+    width: 58%;
+    padding: 4px 4px;
+    float: left;
+    margin: 1px;
+}
+
+.listbox {
+    width: 80%;
+    padding: 2px 2px;
+    float: left;
+}
+
+.listline {
+    width: 100%;
+    padding: 7px 0px;
+    float: left;
+    background-color:rgb(240, 240, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.listitem_name {
+    width: 38%;
+    padding: 4px 4px;
+    float: left;
+    margin: 1px;
+}
+
+.listitem_desc {
+    width: 58%;
+    padding: 4px 4px;
+    margin: 1px;
+    float: left;
+}
+
+button.bttn {
+    background: darkblue;
+    padding: 8px 8px;
+    color: white;
+    border: 1px solid black;
+    margin: 8px;
+    width: 10em;
+}
+
+button.bttn:hover{
+    background: blue;
+}

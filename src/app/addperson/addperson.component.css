@@ -1,0 +1,26 @@
+.add_form {
+    width: 100%;
+    padding: 2px 2px;
+    background-color: rgb(240, 240, 255);
+}
+
+.add_line {
+    width: 100%;
+    padding: 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+
+button.bttn {
+    background: darkblue;
+    padding: 8px 8px;
+    color: white;
+    border: 1px solid black;
+    margin: 8px;
+    width: 10em;
+}
+
+button.bttn:hover{
+    background: blue;
+}

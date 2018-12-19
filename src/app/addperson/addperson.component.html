@@ -1,0 +1,28 @@
+<form [formGroup]="addPersonForm">
+
+  <div class=add_form>
+    
+    <div class=add_line>
+      <label>Name:</label><br>
+      <input type="text" placeholder="Enter name here" size="40" 
+          formControlName="inputName" required>
+    </div>
+
+    <div class=add_line>
+      <label>Description:</label><br>
+      <textarea cols='60' rows='10' placeholder="Enter description here" 
+          formControlName="inputDescription">
+      </textarea>
+    </div>
+
+  </div>
+
+  <button type="reset" class = "bttn" 
+    (click)="onCancel()" style="float: left">Cancel
+  </button>
+
+  <button type="button" class = "bttn" [disabled]="!addPersonForm.valid" 
+    (click)="onSave()" style="float: left">Save
+  </button>
+
+</form>
